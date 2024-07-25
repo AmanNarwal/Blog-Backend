@@ -8,7 +8,7 @@ const cors = require('cors');
 
 // Apply CORS middleware first
 app.use(cors({
-  origin: 'https://frontend-blogging.vercel.app',
+  origin: 'https://blogging-frontend-khaki.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
